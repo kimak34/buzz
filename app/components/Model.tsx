@@ -1,9 +1,7 @@
 import { useRef, useState } from "react"
-import ModelView from "./ModelView"
 import * as THREE from "three";
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
-import { PerspectiveCamera, OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import Lights from "./Lights";
 import BuzzBand from "./BuzzBand";
@@ -17,7 +15,7 @@ const Model = () => {
     const model = useRef(new THREE.Group());
 
     // rotation
-    const [rotation, setRotation] = useState(0);
+    const [_, setRotation] = useState(0);
 
     return (
         <div className="flex flex-col items-center mt-5">
