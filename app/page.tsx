@@ -1,19 +1,16 @@
 "use client"
 
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Plans from "./components/Plans";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import Model from "./components/Model";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import BuzzBand from "./components/BuzzBand";
-import { ContactShadows, OrbitControls } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { PerspectiveCamera } from "@react-three/drei";
 import Lights from "./components/Lights";
 import { LinearGradient } from 'react-text-gradients'
-import { useRef } from "react";
 import {ScrollTrigger} from "gsap/all";
 import { TbCircleNumber1, TbCircleNumber2, TbCircleNumber3 } from "react-icons/tb";
 

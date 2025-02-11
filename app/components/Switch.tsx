@@ -1,8 +1,8 @@
 
-import { IoAmericanFootball, IoArrowBack, IoArrowForward, IoRadioButtonOff } from "react-icons/io5"
+import {IoRadioButtonOff } from "react-icons/io5"
 import { forwardRef } from "react"
 
-const Switch = forwardRef((props, forwardedRef) => (
+const Switch = forwardRef((props, _) => (
     <label className="cursor-pointer">
         <input type="checkbox" className="hidden" {...props} />
         <div className={`
@@ -24,4 +24,4 @@ const Switch = forwardRef((props, forwardedRef) => (
     </label>
 ))
 
-export default Switch
+export default Switch;

@@ -1,8 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
-import redcircle from "@/assets/images/redcircle.png";
 import { IoCheckmark, IoClose } from "react-icons/io5";
 import Switch from './Switch';
 
